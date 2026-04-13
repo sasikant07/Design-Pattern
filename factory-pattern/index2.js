@@ -1,8 +1,11 @@
 /*
-The Factory pattern provides an interface for creating objects, but allows subclasses or a central "factory" function 
-to alter the type of objects that will be created. It hides the complex logic of instantiation.
+The Factory pattern provides an interface for creating objects, 
+but allows subclasses or a central "factory" function 
+to alter the type of objects that will be created. 
+It hides the complex logic of instantiation.
 
-Use Case: When you need to generate different objects that share the same structure but have different properties 
+Use Case: When you need to generate different objects 
+that share the same structure but have different properties 
   (e.g., creating different types of UI components or game enemies).
 */
   
