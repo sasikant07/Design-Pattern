@@ -1,8 +1,10 @@
 /*
-The Observer pattern defines a one-to-many dependency. When one object (the Subject) changes state, all its dependents 
+The Observer pattern defines a one-to-many dependency. 
+When one object (the Subject) changes state, all its dependents 
 (Observers) are notified automatically.
 
-Use Case: This is the backbone of Event Listeners in the browser and frameworks like Vue or React (via state updates).
+Use Case: This is the backbone of Event Listeners in the browser 
+and frameworks like Vue or React (via state updates).
 */
 
 class Subject {
