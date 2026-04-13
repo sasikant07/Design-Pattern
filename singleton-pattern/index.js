@@ -46,3 +46,21 @@ const db1 = new DatabaseConnection();
 const db2 = new DatabaseConnection();
 
 console.log(db1 === db2); // true (They are the exact same object)
+
+//==========================================================================================================
+// logger.js
+class Logger {
+  constructor() {
+    this.logs = [];
+  }
+
+  log(message) {
+    this.logs.push(message);
+    console.log(`Log: ${message}`);
+  }
+}
+
+// Export a PRE-INSTANTIATED object
+const loggerInstance = new Logger();
+Object.freeze(loggerInstance); // Optional: prevents adding new properties
+export default loggerInstance;
