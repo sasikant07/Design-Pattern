@@ -1,3 +1,12 @@
+/*
+While ES6 import/export has mostly replaced the manual version of this, 
+the concept remains vital. It allows you to emulate private and public variables and methods, 
+preventing "namespace pollution" (messing up the global window object).
+
+Use Case: Creating a self-contained library or a utility service 
+where you don't want the internal logic exposed to the user.
+*/
+
 const CounterModule = (function() {
   // Private variable
   let counter = 0;
